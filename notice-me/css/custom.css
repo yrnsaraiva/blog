@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Rubik:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+@import "animations.css";
+
+/*presets*/
+
+html{
+    scroll-behavior: smooth;
+    font-family: rubik, sans-serif;
+}
+body{
+    font-family: rubik, sans-serif;
+}
+img{
+    width: 100%
+}
+small{
+    font-size: 0.75em;
+    letter-spacing: 2px;
+}
+section {
+    padding-top: 7em;
+    padding-bottom: 7em;
+    min-height: 60vh;
+}
+.space{
+    height: 12em;
+}
+.hide{
+    display: none;
+}
+
+/*scroll-barr*/
+::-webkit-scrollbar{
+    display: none;
+}
+
+/*home*/
+.navbar-custom .form-control{
+    width: 230px;
+}
+.navbar-custom{
+    margin-bottom: 0;
+}
+
+#home{
+    background: #000A1A;
+}
+#home .container .row .col-12 h1{
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+}
+#home .container .row .col-12 p{
+    max-width: 28.5em;
+}
+
+#home .container .row .col-12 h1 button{
+    background: none;
+    border: none;
+    color: #fff;
+}
+#home .container .row .col-12 h1 button:hover,
+#home .container .row .col-12 h1 span:hover{
+    color: #156fc3;
+    transition: .4s ease;
+    animation: bounce 0.6s;
+}
